@@ -1,4 +1,4 @@
 #!bin/bash
-
-gzserver --verbose & \
+export GAZEBO_MASTER_URI=localhost:11345
+#gzserver --verbose & \
 cd ~/gzweb && npm start
